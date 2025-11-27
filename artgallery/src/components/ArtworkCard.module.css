@@ -1,0 +1,40 @@
+.artworkCard {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+.artworkImage {
+    width: 100%;
+    height: 48vh;
+    object-fit: cover;
+}
+
+.artworkName {
+    font-size: 1.5rem;
+    margin: 16px 0 8px 0;
+}
+
+.artworkAuthor {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0 0 16px 0;
+}
+
+.artworkComment {
+    font-size: 1rem;
+    color: #333;
+    margin: 0 16px 16px 16px;
+    text-align: center;
+}
