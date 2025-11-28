@@ -12,19 +12,19 @@ const ImageList : Artwork[] = [
         name: 'Wanderer above the Sea of Fog',
         author: 'Caspar David Friedrich',
         image: wandererImage,
-        comment: 'A masterpiece of Romanticism.'
+        comment: 'This painting fills me with hope and faith in the Good.'
     },
     {
         name: 'Starry Night',
         author: 'Vincent van Gogh',
         image: starryNightImage,
-        comment: 'A swirling night sky over a quiet town.'
+        comment: 'All the beautiful European nights encapsulated in one painting.'
     },
     {
         name: 'Girl with a Pearl Earring',
         author: 'Johannes Vermeer',
         image: girlWithPearlEarring,
-        comment: 'Her face is kind.'
+        comment: 'Her face is kind. I feel like she gets me.'
     },
     {
         name: 'Golden Gate',
