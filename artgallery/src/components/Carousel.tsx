@@ -4,6 +4,7 @@ import wandererImage from '../assets/wanderer.jpeg'
 import starryNightImage from '../assets/starry_night.jpeg'
 import girlWithPearlEarring from '../assets/pearlgirl.jpeg'
 import goldenGate from '../assets/goldengate.jpeg'
+import flamingJune from '../assets/flamingjune.jpg'
 import {useState} from 'react'
 import styles from './Carousel.module.css'
 
@@ -31,6 +32,12 @@ const ImageList : Artwork[] = [
         author: 'Charles Sheeler',
         image: goldenGate,
         comment: 'I miss San Francisco.'
+    }, 
+    {
+        name: 'Flaming June',
+        author: 'Sir Frederic Leighton',
+        image: flamingJune,
+        comment: "I'm just mesmerised by the texture and colours."
     }
 ]
 
